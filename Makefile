@@ -1,4 +1,4 @@
-NAME = calc
+NAME = tcalc
 EXE_NAME = $(NAME).exe
 C_NAME = $(NAME).c
 
@@ -10,3 +10,5 @@ output: $(C_NAME)
 run:
 	./$(EXE_NAME)
 
+install:
+	cp ./$(EXE_NAME) $(HOME)/bin/
