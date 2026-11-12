@@ -1,12 +1,12 @@
-# Kalkulator Saintifik Sederhana
-###### Oleh Kenny Bee Utomo, untuk tugas AlgoLab
+# Simple Scientific Calculator
+###### Made by Kenny Bee Utomo, for Algorithms & Programming class
 
-### Basic Cara Penggunaan
-Cara input:
+### Basic Usage
+Input:
 ```
-<bilangan> <operator> <bilangan> <operator> <bilangan> <operator> <bilangan> ...
+<number> <operator> <number> <operator> <number> <operator> <number> ...
 ```
-Contoh:
+Example:
 ```
 3 * 4
 ```
@@ -14,7 +14,7 @@ Output:
 ```
 > 12.00
 ```
-Setelah itu masih bisa diinput lagi:
+You can chain the output with more inputs:
 ```
 > 12.00 * 100 + 20
 ```
@@ -22,29 +22,29 @@ Output:
 ```
 > 1220.00
 ```
-Jika sudah puas bisa quit dengan q:
+When satisfied, quit using `q`:
 ```
 > 1220.00 q
 ```
 
 ### Operators
 ```
-+		Penjumlahan
--		Pengurangan
-*		Perkalian
-/		Pembagian
++		Addition
+-		Subtraction
+*		Multiplication
+/		Division
 %		Modulo
-^		Pangkat
-r		Akar
+^		Exponent/Power
+r		Root
 =		Set value
 ```
 
 ### Unary Operators
 ```
-q		Quit (Keluar)
-(		Floor (Pembulatan ke bawah)
-)		Ceiling (Pembulatan ke atas)
-_		Round (Pembulatan)
+q		Quit
+(		Floor
+)		Ceiling
+_		Round
 !		Negate
 p		Set to PI
 s		sin
@@ -59,9 +59,9 @@ L		log10
 
 ### Options
 ```
--q      Quiet mode, hanya output hasil saat quit
+-q      Quiet mode, only output result on quit
 ```
 
 ### Notes
-- Tidak ada operator precedence
-- Spasi diabaikan
+- No operator precedence
+- Whitespaces are ignored
